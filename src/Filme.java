@@ -6,4 +6,5 @@ public class Filme
     double avaliacao;
     int totalDeAvaliacoes;
 
+
 }
