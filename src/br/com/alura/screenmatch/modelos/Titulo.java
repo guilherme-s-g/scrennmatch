@@ -9,14 +9,26 @@ public class Titulo
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+
+
     public void setNome(String nome)
     {
         this.nome = nome;
     }
 
+    public String getNome()
+    {
+        return nome;
+    }
+
     public void setAnoDeLancamento(int anoDeLancamento)
     {
         this.anoDeLancamento = anoDeLancamento;
+    }
+
+    public int getAnoDeLancamento()
+    {
+        return anoDeLancamento;
     }
 
     public void setIncluidoNoPlano(boolean incluidoNoPlano)
